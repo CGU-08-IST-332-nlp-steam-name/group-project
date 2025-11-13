@@ -22,7 +22,7 @@ Set Upstream for Branch<br>
 Create Virtual Enviroment<br>
 `python -m venv venv`<br>
 
-Activate Virtal Enviroment<br>
+Activate Virtual Enviroment<br>
 Windows<br>
 `.\venv\Scripts\Activate`<br>
 macOS / Linux<br>
