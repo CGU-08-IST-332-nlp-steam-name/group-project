@@ -14,6 +14,9 @@ Show Branches <br>
 Select Branch <br>
 `git checkout <branch>` <br>
 
+Set Upstream for Branch<br>
+`git push --set-upstream origin <branch>`
+
 Create Virtual Enviroment<br>
 `python -m venv venv`<br>
 
