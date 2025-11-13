@@ -17,11 +17,12 @@ Select Branch <br>
 Set Upstream for Branch<br>
 `git push --set-upstream origin <branch>`
 
+## Setup Enviroment
+
 Create Virtual Enviroment<br>
 `python -m venv venv`<br>
 
-
-**Activate Virtal Enviroment**<br>
+Activate Virtual Enviroment<br>
 Windows<br>
 `.\venv\Scripts\Activate`<br>
 macOS / Linux<br>
@@ -30,5 +31,10 @@ macOS / Linux<br>
 Install Dependencies<br>
 `pip install -r requirements.txt`<br>
 
-## Launch JupyterLab
-`jupyter lab`
+## Launch Jupyter Lab
+
+Use Virtual Enviroment in JupyterLab<br>
+`python -m ipykernel install --user --name=venv --display-name "Python (venv)"`<br>
+
+Launch JupyterLab<br>
+`jupyter lab`<br>
