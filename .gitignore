@@ -3,4 +3,3 @@
 venv
 .ipynb_checkpoints
 .env
-.longformer_with_sentiment.csv
